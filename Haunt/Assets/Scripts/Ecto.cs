@@ -24,7 +24,7 @@ public class Ecto : MonoBehaviour {
 	void OnTriggerEnter(Collider collider){
 		if(collider.name == "Polterguy")
 		{
-			Destroy(gameObject);
+			Destroy(gameObject.transform.parent.gameObject);
 			GameObject.Find("LevelController").SendMessage("UpdateEctoCount",amount);
 		}
 	}

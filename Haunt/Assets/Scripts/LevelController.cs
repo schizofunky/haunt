@@ -42,7 +42,7 @@ public class LevelController : MonoBehaviour {
 		bool complete = true;
 		foreach(GameObject npcObject in levelNPCs)
 		{
-			if(npcObject.GetComponent<NPC>().hasSanityLeft())
+			if(npcObject)
 			{
 				complete = false;
 			}
