@@ -5,12 +5,12 @@ public class FrightObject : MonoBehaviour {
 	public string description = "New Fright Object";
 	public int frightPoints = 0;
 	public int ectoRequired = 0;
-	public int activationDistance = 10;
+	public float activationDistance = 10;
 	private bool _activated;
 
 	// Use this for initialization
 	void Start () {
-		_activated = false;
+		_activated = true;
 	}
 	
 	// Update is called once per frame
@@ -20,7 +20,9 @@ public class FrightObject : MonoBehaviour {
 
 	public bool isCharacterWithinRange(GameObject characterObject)
 	{
-		return false;
+		float distance = Vector3.Distance(gameObject.transform.position, characterObject.transform.position);
+		print(description + " : " +distance);
+		return distance < activationDistance;
 	}
 
 	public void activateFrightObject()
@@ -34,15 +36,12 @@ public class FrightObject : MonoBehaviour {
 	}
 
 	public void playFrightAnimation()
-	{
-		if(isObjectAtivated())
-		{			
-			Animation[] anims = gameObject.GetComponentsInChildren<Animation>();
-			foreach(Animation anim in anims)
-			{
-				anim.Play();
-			}
-			_activated = false;
+	{		
+		Animation[] anims = gameObject.GetComponentsInChildren<Animation>();
+		foreach(Animation anim in anims)
+		{
+			anim.Play();
 		}
+		_activated = false;
 	}
 }

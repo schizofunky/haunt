@@ -83,15 +83,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400006, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.20645714
+      value: 3.60748196
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.44171715
+      value: 3.14741993
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -5.42168045
+      value: -4.61000633
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
       propertyPath: m_LocalRotation.x
@@ -109,6 +109,86 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
+      propertyPath: activationDistance
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
+      propertyPath: description
+      value: Scary Painting
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: .202188492
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -.0563459396
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: .164447784
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -.0717153549
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .0639839172
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -.0721683502
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -.130470276
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -.00764083862
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -.0922794342
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
+      propertyPath: m_LocalScale.x
+      value: .100000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
+      propertyPath: m_LocalScale.y
+      value: .100000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
+      propertyPath: m_LocalScale.z
+      value: .100000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 62ef14925a3ab8f49ab8f5728dc46bcd, type: 2}
+    - target: {fileID: 400002, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.05914998
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.05914998
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3ddc0ec4646c0784cb7b6243e67ed51f, type: 2}
+    - target: {fileID: 2300004, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50aa20179cddb6845b4c286c4bcba10a, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0fe988a204addf146a41e4e4e282ceef, type: 2}
   m_RootGameObject: {fileID: 1093665899}
@@ -165,6 +245,14 @@ Prefab:
       propertyPath: scepticLevel
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: a1f6a3d9b9bf3fc42ae4d6e67d5d7f09, type: 2}
+      propertyPath: currentRoom
+      value: 
+      objectReference: {fileID: 243437309}
+    - target: {fileID: 100004, guid: a1f6a3d9b9bf3fc42ae4d6e67d5d7f09, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1f6a3d9b9bf3fc42ae4d6e67d5d7f09, type: 2}
   m_RootGameObject: {fileID: 1680029391}
@@ -195,7 +283,7 @@ Transform:
   m_PrefabInternal: {fileID: 972947669}
   m_GameObject: {fileID: 151963961}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: .0146741867, y: -.610091209, z: .00101852417}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 354990673}
@@ -335,8 +423,8 @@ Transform:
   - {fileID: 1586838446}
   - {fileID: 1428646543}
   - {fileID: 219545792}
-  - {fileID: 1792468411}
   - {fileID: 1093665900}
+  - {fileID: 1792468411}
   - {fileID: 267004587}
   - {fileID: 359590115}
   m_Father: {fileID: 0}
@@ -390,6 +478,14 @@ Prefab:
     - target: {fileID: 11400000, guid: a1f6a3d9b9bf3fc42ae4d6e67d5d7f09, type: 2}
       propertyPath: scepticLevel
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: a1f6a3d9b9bf3fc42ae4d6e67d5d7f09, type: 2}
+      propertyPath: currentRoom
+      value: 
+      objectReference: {fileID: 243437309}
+    - target: {fileID: 100004, guid: a1f6a3d9b9bf3fc42ae4d6e67d5d7f09, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1f6a3d9b9bf3fc42ae4d6e67d5d7f09, type: 2}
@@ -541,15 +637,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: d9e0977775dfd27489a7d364c946e85f, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -10.2489452
+      value: -4.24882889
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: d9e0977775dfd27489a7d364c946e85f, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -.00552368164
+      value: 2.05590153
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: d9e0977775dfd27489a7d364c946e85f, type: 2}
       propertyPath: m_LocalPosition.z
-      value: .00333976746
+      value: -1.17366791
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: d9e0977775dfd27489a7d364c946e85f, type: 2}
       propertyPath: m_LocalRotation.x
@@ -569,7 +665,31 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: d9e0977775dfd27489a7d364c946e85f, type: 2}
       propertyPath: m_Name
-      value: FrightObject1
+      value: ScaryVase
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: d9e0977775dfd27489a7d364c946e85f, type: 2}
+      propertyPath: activationDistance
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: d9e0977775dfd27489a7d364c946e85f, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d9e0977775dfd27489a7d364c946e85f, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 34314f116609c8840a1d3c5a56890e52, type: 2}
+    - target: {fileID: 400000, guid: d9e0977775dfd27489a7d364c946e85f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d9e0977775dfd27489a7d364c946e85f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d9e0977775dfd27489a7d364c946e85f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d9e0977775dfd27489a7d364c946e85f, type: 2}
@@ -599,7 +719,7 @@ Transform:
   m_PrefabInternal: {fileID: 972947669}
   m_GameObject: {fileID: 354990672}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.9919147, y: 4.90232754, z: 23.0903454}
+  m_LocalPosition: {x: -16.8719654, y: 7.44839096, z: 18.4565964}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 151963962}
@@ -620,6 +740,7 @@ MonoBehaviour:
   npcName: Flo
   sanityPoints: 100
   scepticLevel: 3
+  currentRoom: {fileID: 243437309}
 --- !u!1 &359590114
 GameObject:
   m_ObjectHideFlags: 0
@@ -852,7 +973,7 @@ Transform:
   m_PrefabInternal: {fileID: 1878408707}
   m_GameObject: {fileID: 888845730}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.36348152, y: .617629051, z: -5.85242271}
+  m_LocalPosition: {x: -.00584602356, y: -.0162348747, z: .00884628296}
   m_LocalScale: {x: 1, y: .0199999996, z: 1}
   m_Children: []
   m_Father: {fileID: 1586838446}
@@ -941,7 +1062,7 @@ Transform:
   m_PrefabInternal: {fileID: 1878408707}
   m_GameObject: {fileID: 896150767}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.35178947, y: .650098801, z: -5.87011433}
+  m_LocalPosition: {x: .00584602356, y: .0162348747, z: -.00884532928}
   m_LocalScale: {x: .200000003, y: 1, z: .200000003}
   m_Children: []
   m_Father: {fileID: 1586838446}
@@ -995,15 +1116,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400004, guid: a1f6a3d9b9bf3fc42ae4d6e67d5d7f09, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -21.9919147
+      value: -16.8719654
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: a1f6a3d9b9bf3fc42ae4d6e67d5d7f09, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 4.90232754
+      value: 7.44839096
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: a1f6a3d9b9bf3fc42ae4d6e67d5d7f09, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 23.0903454
+      value: 18.4565964
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: a1f6a3d9b9bf3fc42ae4d6e67d5d7f09, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1037,6 +1158,34 @@ Prefab:
       propertyPath: scepticLevel
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: a1f6a3d9b9bf3fc42ae4d6e67d5d7f09, type: 2}
+      propertyPath: currentRoom
+      value: 
+      objectReference: {fileID: 243437309}
+    - target: {fileID: 400002, guid: a1f6a3d9b9bf3fc42ae4d6e67d5d7f09, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: .0146741867
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: a1f6a3d9b9bf3fc42ae4d6e67d5d7f09, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -.610091209
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: a1f6a3d9b9bf3fc42ae4d6e67d5d7f09, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: .00101852417
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a1f6a3d9b9bf3fc42ae4d6e67d5d7f09, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -.0146741867
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a1f6a3d9b9bf3fc42ae4d6e67d5d7f09, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .610091209
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a1f6a3d9b9bf3fc42ae4d6e67d5d7f09, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -.00101661682
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1f6a3d9b9bf3fc42ae4d6e67d5d7f09, type: 2}
   m_RootGameObject: {fileID: 354990672}
@@ -1066,7 +1215,7 @@ Transform:
   m_PrefabInternal: {fileID: 32395508}
   m_GameObject: {fileID: 1093665899}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.20645714, y: 2.44171715, z: -5.42168045}
+  m_LocalPosition: {x: 3.60748196, y: 3.14741993, z: -4.61000633}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1440240537}
@@ -1104,10 +1253,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f4c68216623e4446aa5a9f624fee9cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: New Fright Object
+  description: Scary Painting
   frightPoints: 3
   ectoRequired: 0
-  activationDistance: 15
+  activationDistance: 2.5
 --- !u!1 &1175292228
 GameObject:
   m_ObjectHideFlags: 0
@@ -1237,7 +1386,7 @@ Transform:
   m_PrefabInternal: {fileID: 345236143}
   m_GameObject: {fileID: 1233295637}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.99555588, y: 2.06142521, z: -1.17700768}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: .359781027, y: .359781027, z: .359781027}
   m_Children: []
   m_Father: {fileID: 1792468411}
@@ -1285,7 +1434,7 @@ Transform:
   m_PrefabInternal: {fileID: 32395508}
   m_GameObject: {fileID: 1296497813}
   m_LocalRotation: {x: 0, y: 0, z: -.70710665, w: .707106948}
-  m_LocalPosition: {x: 2.60321331, y: .649356842, z: .976121902}
+  m_LocalPosition: {x: .202188492, y: -.0563459396, z: .164447784}
   m_LocalScale: {x: .100000001, y: .100000001, z: .100000001}
   m_Children: []
   m_Father: {fileID: 1093665900}
@@ -1395,7 +1544,7 @@ Transform:
   m_PrefabInternal: {fileID: 972947669}
   m_GameObject: {fileID: 1385681285}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.0293483734, y: 1.22018242, z: -.00203514099}
+  m_LocalPosition: {x: -.0146741867, y: .610091209, z: -.00101661682}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 354990673}
@@ -1630,7 +1779,7 @@ Transform:
   m_PrefabInternal: {fileID: 32395508}
   m_GameObject: {fileID: 1440240536}
   m_LocalRotation: {x: 0, y: 0, z: .70710665, w: .707106948}
-  m_LocalPosition: {x: 2.32930946, y: .769686699, z: .739505768}
+  m_LocalPosition: {x: -.0717153549, y: .0639839172, z: -.0721683502}
   m_LocalScale: {x: 1.05914998, y: .0199999996, z: 1.05914998}
   m_Children: []
   m_Father: {fileID: 1093665900}
@@ -1700,7 +1849,7 @@ Transform:
   m_PrefabInternal: {fileID: 32395508}
   m_GameObject: {fileID: 1515566418}
   m_LocalRotation: {x: -.50000006, y: .499999404, z: .5, w: .500000656}
-  m_LocalPosition: {x: 2.27055454, y: .698061943, z: .719394684}
+  m_LocalPosition: {x: -.130470276, y: -.00764083862, z: -.0922794342}
   m_LocalScale: {x: .200000003, y: .200000003, z: .200000003}
   m_Children: []
   m_Father: {fileID: 1093665900}
@@ -1768,7 +1917,7 @@ Transform:
   m_PrefabInternal: {fileID: 1878408707}
   m_GameObject: {fileID: 1586838445}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .0148630142, y: -.00646495819, z: .00429725647}
+  m_LocalPosition: {x: -1.34277248, y: .627398968, z: -5.85697174}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 888845731}
@@ -1786,10 +1935,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f4c68216623e4446aa5a9f624fee9cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: New Fright Object
+  description: Bloody RUg
   frightPoints: 7
   ectoRequired: 0
-  activationDistance: 20
+  activationDistance: 2.5
 --- !u!1 &1589468138
 GameObject:
   m_ObjectHideFlags: 0
@@ -1884,7 +2033,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1680029392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1900,6 +2049,7 @@ MonoBehaviour:
   npcName: Tony
   sanityPoints: 100
   scepticLevel: 2
+  currentRoom: {fileID: 243437309}
 --- !u!4 &1680029393
 Transform:
   m_ObjectHideFlags: 0
@@ -1928,7 +2078,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1744898958
 Transform:
   m_ObjectHideFlags: 0
@@ -1957,6 +2107,7 @@ MonoBehaviour:
   npcName: Vito
   sanityPoints: 100
   scepticLevel: 4
+  currentRoom: {fileID: 243437309}
 --- !u!1 &1792468410
 GameObject:
   m_ObjectHideFlags: 0
@@ -1967,7 +2118,7 @@ GameObject:
   - 4: {fileID: 1792468411}
   - 114: {fileID: 1792468412}
   m_Layer: 0
-  m_Name: FrightObject1
+  m_Name: ScaryVase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1980,7 +2131,7 @@ Transform:
   m_PrefabInternal: {fileID: 345236143}
   m_GameObject: {fileID: 1792468410}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.2489452, y: -.00552368164, z: .00333976746}
+  m_LocalPosition: {x: -4.24882889, y: 2.05590153, z: -1.17366791}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1233295641}
@@ -2000,7 +2151,7 @@ MonoBehaviour:
   description: Spooky Vase
   frightPoints: 5
   ectoRequired: 0
-  activationDistance: 10
+  activationDistance: 2.5
 --- !u!1 &1839811580
 GameObject:
   m_ObjectHideFlags: 0
@@ -2079,15 +2230,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400004, guid: 7b23a8200456ed342befc40d3ff5f929, type: 2}
       propertyPath: m_LocalPosition.x
-      value: .0148630142
+      value: -1.34277248
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 7b23a8200456ed342befc40d3ff5f929, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -.00646495819
+      value: .627398968
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 7b23a8200456ed342befc40d3ff5f929, type: 2}
       propertyPath: m_LocalPosition.z
-      value: .00429725647
+      value: -5.85697174
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 7b23a8200456ed342befc40d3ff5f929, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2105,6 +2256,46 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 7b23a8200456ed342befc40d3ff5f929, type: 2}
+      propertyPath: activationDistance
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 7b23a8200456ed342befc40d3ff5f929, type: 2}
+      propertyPath: description
+      value: Bloody RUg
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7b23a8200456ed342befc40d3ff5f929, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -.00584602356
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7b23a8200456ed342befc40d3ff5f929, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -.0162348747
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7b23a8200456ed342befc40d3ff5f929, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: .00884628296
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 7b23a8200456ed342befc40d3ff5f929, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: .00584602356
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 7b23a8200456ed342befc40d3ff5f929, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .0162348747
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 7b23a8200456ed342befc40d3ff5f929, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -.00884532928
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 7b23a8200456ed342befc40d3ff5f929, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 62ef14925a3ab8f49ab8f5728dc46bcd, type: 2}
+    - target: {fileID: 2300002, guid: 7b23a8200456ed342befc40d3ff5f929, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 44ab3f2bcb0bc8e44a664743a29d5d05, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7b23a8200456ed342befc40d3ff5f929, type: 2}
   m_RootGameObject: {fileID: 1586838445}
@@ -2125,7 +2316,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1957848847
 Transform:
   m_ObjectHideFlags: 0
@@ -2154,6 +2345,7 @@ MonoBehaviour:
   npcName: Mimi
   sanityPoints: 100
   scepticLevel: 1
+  currentRoom: {fileID: 243437309}
 --- !u!1001 &2123972150
 Prefab:
   m_ObjectHideFlags: 0
@@ -2204,6 +2396,14 @@ Prefab:
     - target: {fileID: 11400000, guid: a1f6a3d9b9bf3fc42ae4d6e67d5d7f09, type: 2}
       propertyPath: scepticLevel
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: a1f6a3d9b9bf3fc42ae4d6e67d5d7f09, type: 2}
+      propertyPath: currentRoom
+      value: 
+      objectReference: {fileID: 243437309}
+    - target: {fileID: 100004, guid: a1f6a3d9b9bf3fc42ae4d6e67d5d7f09, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1f6a3d9b9bf3fc42ae4d6e67d5d7f09, type: 2}

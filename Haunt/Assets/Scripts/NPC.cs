@@ -6,6 +6,7 @@ public class NPC : MonoBehaviour {
 	public string npcName = "New NPC";
 	public int sanityPoints = 100;
 	public int scepticLevel = 1;
+	public GameObject currentRoom;
 	private int _ectoEarned;
 	private int _roomInterest;
 
@@ -16,8 +17,16 @@ public class NPC : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	
+	void Update () 
+	{
+		FrightObject[] frightObjectsInRoom = currentRoom.GetComponentsInChildren<FrightObject>();
+		foreach(FrightObject frightObject in frightObjectsInRoom)
+		{
+			if(frightObject.isCharacterWithinRange(gameObject) && frightObject.isObjectAtivated())
+			{
+				frightObject.playFrightAnimation();
+			}
+		}
 	}
 
 	public void Scare(FrightObject frightObject)
