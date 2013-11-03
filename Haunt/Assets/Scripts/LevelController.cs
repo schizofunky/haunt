@@ -5,6 +5,7 @@ public class LevelController : MonoBehaviour {
 	public GameObject[] levelNPCs = new GameObject[4];
 	public GameObject player;
 	public GameObject level;
+	public int ecto = 50;
 
 	private FrightObject[] _frightObjects;
 
@@ -47,5 +48,11 @@ public class LevelController : MonoBehaviour {
 			}
 		}
 		return complete;
+	}
+
+	public void UpdateEctoCount(int amount)
+	{
+		ecto += amount;
+		print("You gained "+amount+" ecto!");
 	}
 }

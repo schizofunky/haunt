@@ -8,7 +8,6 @@ public class FrightObject : MonoBehaviour {
 	public float activationDistance = 10;
 	private bool _activated;
 
-	private int _activationCooldown = 400;
 
 	// Use this for initialization
 	void Start () {

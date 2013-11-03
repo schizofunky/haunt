@@ -7,6 +7,7 @@ public class NPC : MonoBehaviour {
 	public int sanityPoints = 100;
 	public int scepticLevel = 1;
 	public GameObject currentRoom;
+	public Object ectoPrefab;
 	private int _ectoEarned;
 	private int _roomInterest;
 
@@ -40,6 +41,7 @@ public class NPC : MonoBehaviour {
 		{
 			gameObject.SetActive(false);
 		}
+		Instantiate(ectoPrefab, gameObject.transform.position, gameObject.transform.rotation);
 	}
 
 	public int getEarnedEcto()
