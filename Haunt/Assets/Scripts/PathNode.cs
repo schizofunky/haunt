@@ -36,7 +36,6 @@ public class PathNode : MonoBehaviour {
 
 	public void MoveToNextNode()
 	{
-		print("Move to next node called by "+gameObject.name);
 		PathNode[] availableNodes = new PathNode[attachedNodes.Length];
 		int availableNodeCount = 0;
 		foreach(GameObject node in attachedNodes)
@@ -51,7 +50,6 @@ public class PathNode : MonoBehaviour {
 		if(availableNodeCount > 0)
 		{
 			int chosenNode = (int)Mathf.Round(Random.value * (availableNodeCount-1));
-			print("Occupy -"+availableNodes[chosenNode].name);
 			availableNodes[chosenNode].OccupyNode(this,_currentOccupant);
 			_currentOccupant = null;	
 		}
@@ -59,13 +57,11 @@ public class PathNode : MonoBehaviour {
 		{
 			if(_prevNode != null && !_prevNode.IsOccupied())
 			{
-				print("Going to prev node");
 				_prevNode.OccupyNode(this,_currentOccupant);
 				_currentOccupant = null;		
 			}
 			else
 			{
-				print("Nothing is available");
 				//no nodes around the current one are vacant so we just wait...
 			}
 		}

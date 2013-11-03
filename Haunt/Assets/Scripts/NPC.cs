@@ -36,6 +36,10 @@ public class NPC : MonoBehaviour {
 		sanityPoints -= scarePoints;
 		//TODO: check this doesn't go below 0? maybe
 		_ectoEarned += scarePoints;
+		if(!hasSanityLeft())
+		{
+			gameObject.SetActive(false);
+		}
 	}
 
 	public int getEarnedEcto()
@@ -46,9 +50,9 @@ public class NPC : MonoBehaviour {
 		return earnedEcto;
 	}
 
-	public bool hasNoSanityLeft()
+	public bool hasSanityLeft()
 	{
-		return sanityPoints <= 0;
+		return sanityPoints > 0;
 	}
 
 	public bool wantsToLeaveRoom()

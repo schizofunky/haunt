@@ -17,15 +17,6 @@ public class FrightObject : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(!_activated)
-		{
-			if(_activationCooldown-- == 0)
-			{
-				_activated = true;
-				_activationCooldown = 400;
-			}
-
-		}
 	}
 
 	public bool isCharacterWithinRange(GameObject characterObject)
