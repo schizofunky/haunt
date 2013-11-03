@@ -75,8 +75,11 @@ public class PathNode : MonoBehaviour {
 	{
 		_prevNode = previousNode;
 		_currentOccupant = newOccupant;
-		newOccupant.transform.position = gameObject.transform.position;
-		newOccupant.transform.rotation = gameObject.transform.rotation;
+		UnityTween tween = newOccupant.GetComponent<UnityTween>();
+		TweenPositionObject tweenPosition = new TweenPositionObject();
+		tweenPosition.tweenValue = gameObject.transform.position;
+		tweenPosition.totalTime = 1;
+		tween.TweenPosition(tweenPosition);
 		_waitTime = 0;
 	}
 }

@@ -841,6 +841,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 354990673}
   - 114: {fileID: 354990674}
+  - 114: {fileID: 354990675}
   m_Layer: 0
   m_Name: Flo
   m_TagString: Untagged
@@ -877,6 +878,21 @@ MonoBehaviour:
   sanityPoints: 100
   scepticLevel: 3
   currentRoom: {fileID: 243437309}
+--- !u!114 &354990675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 354990672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13e57d66761ca8046b30252c8cee3c3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positions: []
+  rotations: []
+  alphas: []
+  loopArray: 0
 --- !u!1 &359590114
 GameObject:
   m_ObjectHideFlags: 0
@@ -2612,6 +2628,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1680029393}
   - 114: {fileID: 1680029392}
+  - 114: {fileID: 1680029394}
   m_Layer: 0
   m_Name: Tony
   m_TagString: Untagged
@@ -2648,6 +2665,21 @@ Transform:
   - {fileID: 1409080564}
   - {fileID: 1839811581}
   m_Father: {fileID: 0}
+--- !u!114 &1680029394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1680029391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13e57d66761ca8046b30252c8cee3c3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positions: []
+  rotations: []
+  alphas: []
+  loopArray: 0
 --- !u!1 &1706451278
 GameObject:
   m_ObjectHideFlags: 0
@@ -2701,6 +2733,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1744898958}
   - 114: {fileID: 1744898959}
+  - 114: {fileID: 1744898960}
   m_Layer: 0
   m_Name: Vito
   m_TagString: Untagged
@@ -2737,6 +2770,21 @@ MonoBehaviour:
   sanityPoints: 100
   scepticLevel: 4
   currentRoom: {fileID: 243437309}
+--- !u!114 &1744898960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1744898957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13e57d66761ca8046b30252c8cee3c3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positions: []
+  rotations: []
+  alphas: []
+  loopArray: 0
 --- !u!1 &1792468410
 GameObject:
   m_ObjectHideFlags: 0
@@ -2971,6 +3019,14 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 44ab3f2bcb0bc8e44a664743a29d5d05, type: 2}
+    - target: {fileID: 400000, guid: 7b23a8200456ed342befc40d3ff5f929, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7b23a8200456ed342befc40d3ff5f929, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7b23a8200456ed342befc40d3ff5f929, type: 2}
   m_RootGameObject: {fileID: 1586838445}
@@ -3030,6 +3086,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1957848847}
   - 114: {fileID: 1957848848}
+  - 114: {fileID: 1957848849}
   m_Layer: 0
   m_Name: Mimi
   m_TagString: Untagged
@@ -3066,6 +3123,21 @@ MonoBehaviour:
   sanityPoints: 100
   scepticLevel: 1
   currentRoom: {fileID: 243437309}
+--- !u!114 &1957848849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1957848846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13e57d66761ca8046b30252c8cee3c3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positions: []
+  rotations: []
+  alphas: []
+  loopArray: 0
 --- !u!1 &2036299338
 GameObject:
   m_ObjectHideFlags: 0

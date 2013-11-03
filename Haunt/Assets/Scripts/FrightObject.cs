@@ -8,14 +8,24 @@ public class FrightObject : MonoBehaviour {
 	public float activationDistance = 10;
 	private bool _activated;
 
+	private int _activationCooldown = 400;
+
 	// Use this for initialization
 	void Start () {
-		_activated = true;
+		_activated = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+		if(!_activated)
+		{
+			if(_activationCooldown-- == 0)
+			{
+				_activated = true;
+				_activationCooldown = 400;
+			}
+
+		}
 	}
 
 	public bool isCharacterWithinRange(GameObject characterObject)
