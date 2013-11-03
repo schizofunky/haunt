@@ -41,7 +41,8 @@ public class NPC : MonoBehaviour {
 		{
 			gameObject.SetActive(false);
 		}
-		Instantiate(ectoPrefab, gameObject.transform.position, gameObject.transform.rotation);
+		GameObject ecto = (GameObject)Instantiate(ectoPrefab, gameObject.transform.position, gameObject.transform.rotation);
+		ecto.GetComponentInChildren<Ecto>().amount = getEarnedEcto();
 	}
 
 	public int getEarnedEcto()
