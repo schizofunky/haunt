@@ -25,11 +25,12 @@ public class NPC : MonoBehaviour {
 			if(frightObject.isCharacterWithinRange(gameObject) && frightObject.isObjectAtivated())
 			{
 				frightObject.playFrightAnimation();
+				Scare(frightObject);
 			}
 		}
 	}
 
-	public void Scare(FrightObject frightObject)
+	private void Scare(FrightObject frightObject)
 	{
 		int scarePoints = (int)Mathf.Round(frightObject.frightPoints/scepticLevel);
 		sanityPoints -= scarePoints;
