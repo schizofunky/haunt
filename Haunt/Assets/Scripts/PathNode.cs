@@ -21,6 +21,10 @@ public class PathNode : MonoBehaviour {
 	void Update () {
 	}
 
+	void OnTriggerEnter(Collider other){
+		GameObject.Find("LevelController").SendMessage("ChangeCurrentRoom",nodeToOtherRoom);
+	}
+
 	public PathNode MoveToNextNode(NPC currentNPC)
 	{
 		PathNode nextNode = this;
@@ -41,7 +45,10 @@ public class PathNode : MonoBehaviour {
 				nextNode = nodeDoorOfNextRoom;	
 				currentNPC.SetMovedToNewRoom();	
 			}
-			nextNode.OccupyNode(this,currentNPC);
+			if(nextNode != null)
+			{
+				nextNode.OccupyNode(this,currentNPC);				
+			}
 		}
 		else
 		{

@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class NPC : MonoBehaviour {
@@ -6,29 +6,27 @@ public class NPC : MonoBehaviour {
 	public string npcName = "New NPC";
 	public int sanityPoints = 100;
 	public int scepticLevel = 1;
-	public GameObject currentRoom;
 	public Object ectoPrefab;
-	public GameObject startingNode;
 	public int waitTimeAtNode = 300;
 	private int _ectoEarned;
 	private int _roomInterest;
 	private PathNode[] _currentPathArray;
 	private PathNode _currentPathNode;
 	private int _waitTime;
+	private GameObject _currentRoom;
+	private FrightObject[] _frightObjects;
 
 	// Use this for initialization
 	void Start () {
 		_waitTime = (int)Mathf.Round(Random.value * 300);
 		_ectoEarned = 0;
 		_roomInterest = 500 + (int)Mathf.Round(Random.value * 1000);
-		_currentPathNode = startingNode.GetComponent<PathNode>();
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		FrightObject[] frightObjectsInRoom = currentRoom.GetComponentsInChildren<FrightObject>();
-		foreach(FrightObject frightObject in frightObjectsInRoom)
+		foreach(FrightObject frightObject in _frightObjects)
 		{
 			if(frightObject.isCharacterWithinRange(gameObject) && frightObject.isObjectAtivated())
 			{
@@ -40,8 +38,41 @@ public class NPC : MonoBehaviour {
 		if(_waitTime++ > waitTimeAtNode)
 		{
 			_waitTime = (int)Mathf.Round(Random.value * 300);
-			_currentPathNode = _currentPathNode.MoveToNextNode(this);
+
+			if(_currentPathNode != null)
+			{
+				PathNode newNode = _currentPathNode.MoveToNextNode(this); 	
+				if(newNode != null)
+				{
+					_currentPathNode = newNode;
+				}		
+			}
 		}
+	}
+
+	public void SetCurrentRoom(GameObject room)
+	{
+		_currentRoom = room;
+	}
+
+	public GameObject GetCurrentRoom()
+	{
+		return _currentRoom;
+	}
+
+
+	public void SetCurrentPathNode(PathNode node)
+	{
+		if(node != null)
+		{
+			_currentPathNode = node;
+			gameObject.transform.position = node.transform.position;			
+		}
+	}
+
+	public bool HasCurrentPathNode()
+	{
+		return _currentPathNode != null;
 	}
 
 	private void Scare(FrightObject frightObject)
@@ -92,5 +123,10 @@ public class NPC : MonoBehaviour {
 	{
 		_currentPathArray = null;
 		_roomInterest = 500 + (int)Mathf.Round(Random.value * 1000);
+	}
+
+	public void SetFrightObjects(FrightObject[] frightObjects)
+	{
+		_frightObjects = frightObjects;
 	}
 }

@@ -95,8 +95,8 @@ function Awake ()
 	moveDirection = transform.TransformDirection(Vector3.forward);
 	
 	_animation = GetComponent(Animation);
-	if(!_animation)
-		Debug.Log("The character you would like to control doesn't have animations. Moving her might look weird.");
+	/*if(!_animation)
+		Debug.Log("The character you would like to control doesn't have animations. Moving her might look weird.");*/
 	
 	/*
 public var idleAnimation : AnimationClip;
@@ -104,7 +104,7 @@ public var walkAnimation : AnimationClip;
 public var runAnimation : AnimationClip;
 public var jumpPoseAnimation : AnimationClip;	
 	*/
-	if(!idleAnimation) {
+	/*if(!idleAnimation) {
 		_animation = null;
 		Debug.Log("No idle animation found. Turning off animations.");
 	}
@@ -119,7 +119,7 @@ public var jumpPoseAnimation : AnimationClip;
 	if(!jumpPoseAnimation && canJump) {
 		_animation = null;
 		Debug.Log("No jump animation found and the character has canJump enabled. Turning off animations.");
-	}
+	}*/
 			
 }
 

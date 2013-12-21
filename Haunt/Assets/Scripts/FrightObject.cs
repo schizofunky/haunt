@@ -5,7 +5,7 @@ public class FrightObject : MonoBehaviour {
 	public string description = "New Fright Object";
 	public int frightPoints = 0;
 	public int ectoRequired = 0;
-	public float activationDistance = 10;
+	public float activationDistance = 0.1f;
 	private bool _activated;
 
 
@@ -21,7 +21,6 @@ public class FrightObject : MonoBehaviour {
 	public bool isCharacterWithinRange(GameObject characterObject)
 	{
 		float distance = Vector3.Distance(gameObject.transform.position, characterObject.transform.position);
-		//print(description + " : " +distance);
 		return distance < activationDistance;
 	}
 
